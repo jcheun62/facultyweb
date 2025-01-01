@@ -1,0 +1,39 @@
+body{
+    background-color:#ffbf95;;
+  }
+  
+#grid {
+padding-top:2em;
+padding-bottom:2em;
+display:grid;
+grid-template-areas:
+    "thumbs lightbox";
+grid-template-columns: auto auto;
+width:fit-content;
+margin:auto;
+justify-items: center;
+}
+
+#thumbnails {
+padding:1em;
+display:flex;
+flex-direction: column;
+justify-content:space-around;
+}
+
+#thumbnails > div{
+    min-height:150px;
+}
+
+#thumbnails img{
+    height:auto;
+}
+
+#lightbox{
+    margin-top:auto;
+margin-bottom:auto;
+}
+
+#bigImage {
+height:auto;
+}
